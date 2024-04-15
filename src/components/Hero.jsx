@@ -30,7 +30,7 @@ const Hero = () => {
           <div
             data-aos="zoom-in"
             data-aos-once="true"
-            className="">
+            className="hidden md:block">
                 <img
                 src={gym3} width={900} height={50}/>
                 <div className='absolute bottom-3 flex bg-gray-800 rounded-lg'
