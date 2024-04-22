@@ -6,7 +6,7 @@ import Button from './Button'
 const Hero = () => {
   return (
     <section className='h-screen relative mx-auto'>
-      <div className="absolute top-[90px] pl-20 mx-auto ">
+      <div className="absolute top-[90px] pl-5 md:pl-20 mx-auto ">
         <div className='mt-5 md:flex'>
             <div className='flex flex-col justify-center'>
               <h1
@@ -20,8 +20,8 @@ const Hero = () => {
                 data-aos="zoom-out"
                 data-aos-duration="500"
                 data-aos-once="true"
-                className='text-8xl tracking-wide text-accent'>
-                    Transform Your Body and Mind
+                className='text-7xl tracking-wide text-accent'>
+                    Transform Your Body <br/>and Mind
               </p>
               <div>
               <Button/>
@@ -33,7 +33,7 @@ const Hero = () => {
             className="hidden md:block">
                 <img
                 src={gym3} width={900} height={50}/>
-                <div className='absolute bottom-3 flex bg-gray-800 rounded-lg'
+                <div className='absolute bottom-7 flex bg-gray-800 rounded-lg'
                 data-aos="zoom-out"
                 data-aos-duration="500"
                 data-aos-once="true">
